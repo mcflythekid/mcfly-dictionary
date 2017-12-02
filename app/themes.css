@@ -125,10 +125,10 @@
   border: 1px solid #bfc9dc;
   box-shadow: none !important;
 }
-.ztippy-popper[x-placement^=top] .tippy-tooltip.bordered-theme .tippy-arrow {
+.z_______tippy-popper[x-placement^=top] .tippy-tooltip.bordered-theme .tippy-arrow {
   border-top: 7px solid #b4c0d5;
 }
-.ztippy-popper[x-placement^=top] .tippy-tooltip.bordered-theme .tippy-arrow::after {
+.z_____tippy-popper[x-placement^=top] .tippy-tooltip.bordered-theme .tippy-arrow::after {
   content: '';
   position: absolute;
   top: -7px;
@@ -137,3 +137,15 @@
   border-right: 6px solid transparent;
   border-top: 6px solid white;
 }
+
+.tippy-popper {
+	pointer-events: auto !important;
+}
+
+.noselect {
+        user-select: none;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+} 
