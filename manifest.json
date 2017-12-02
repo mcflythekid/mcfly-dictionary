@@ -1,0 +1,25 @@
+{
+  "name": "McFly Dictionary",
+  "description": "McFly Dictionary",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "all_frames": true,
+      "js": [
+		"jquery-latest.js",
+		"axios.min.js",
+		"tippy.js",
+        "code.js"
+      ],
+	  "css":[
+		"tippy.css",
+		"themes.css"
+	  ]
+    }
+  ]
+
+}
